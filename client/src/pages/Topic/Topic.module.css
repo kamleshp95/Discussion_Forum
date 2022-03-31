@@ -1,0 +1,60 @@
+.MainRow {
+  padding-top: 167px;
+}
+
+.Topic {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #00276617;
+  width: 100%;
+}
+
+.Header {
+  padding: 15px 30px;
+  background-color: black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Subtitle {
+  color: white;
+  background-color: #1890ff;
+  padding: 10px 30px;
+}
+
+.Pagination {
+  padding: 30px;
+}
+
+.Posts {
+  border-top: 2px solid #fafafa;
+  border-bottom: 2px solid #fafafa;
+}
+
+.Posts + .Pagination {
+  border-bottom: 2px solid #fafafa;
+}
+
+.Loading {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #00276617;
+  width: 100%;
+  padding: 20px;
+}
+
+.Skeleton + .Skeleton {
+  margin-top: 20px;
+}
+
+.PageLoading {
+  padding: 20px;
+}

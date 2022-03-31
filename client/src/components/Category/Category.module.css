@@ -1,0 +1,44 @@
+.CategoryTable {
+  background-color: white;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #00276617;
+}
+
+.CategoryTable + .CategoryTable {
+  margin-top: 40px;
+}
+
+.CategoryName {
+  width: 60%;
+}
+
+.Titles th {
+  font-size: 16px;
+  padding: 15px 30px;
+  color: #120338;
+}
+
+.Body td {
+  padding: 20px;
+}
+
+.CategoryTable tr {
+  border-bottom: 2px solid #fafafa;
+}
+
+.Body tr:last-of-type {
+  border-bottom: none;
+}
+
+.Topics,
+.Posts {
+  width: 10%;
+  padding: 15px 5px !important;
+  text-align: center;
+}
+
+
+.LastPost {
+  width: 20%;
+}

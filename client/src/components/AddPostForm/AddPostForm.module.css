@@ -1,0 +1,28 @@
+.AddPost {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddPostArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+  width: 100%;
+}
+
+.AddPostInput {
+  width: 100%;
+}
+
+.AddPostButton {
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.AuthMessage {
+  text-align: center;
+  padding: 40px 0;
+}
